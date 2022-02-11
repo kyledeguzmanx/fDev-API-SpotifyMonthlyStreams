@@ -7,10 +7,10 @@ tutorial, check out my Medium page [@kyledeguzmanx](https://medium.com/@kyledegu
 
 ## TECHNOLOGY USED
 
-CheerioJs
-ExpressJS
-HTTP npm package
-Request HTTP client
+CheerioJs  
+ExpressJS  
+HTTP npm package  
+Request HTTP client  
 
 ## SCREENSHOTS
 ### SAMPLE DATA
