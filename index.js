@@ -14,7 +14,15 @@ request("https://en.wikipedia.org/wiki/List_of_most-streamed_artists_on_Spotify"
       }
       //console.log(i + ": " + item);
     })
-    console.log(stats);
+    
+    $(".mw-body .mw-body-content .mw-parser-output .wikitable tbody tr td").each((i,el) => {
+      const item = $(el).html();
+      if(numbers.length < 20 && !isNaN(parseFloat(item))){
+        numbers.push(item);
+      }
+      //console.log(i + ": " + item);
+    })
+    console.log(numbers);
   }
   else{
     console.log("error")
