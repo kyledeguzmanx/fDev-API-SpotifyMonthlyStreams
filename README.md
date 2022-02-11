@@ -12,5 +12,11 @@ ExpressJS
 HTTP npm package
 Request HTTP client
 
+## SCREENSHOTS
+### SAMPLE DATA
+![](https://github.com/kyledeguzmanx/fDev-API-SpotifyMonthlyStreams/blob/main/screenshots/listeners-artist.jpg?raw=true)
+### CONSOLE OUIPUT
+![](https://github.com/kyledeguzmanx/fDev-API-SpotifyMonthlyStreams/blob/main/screenshots/listeners-artistt.jpg?raw=true)
+
 ## CREDITS
 Wikipedia & Spotify for Data
