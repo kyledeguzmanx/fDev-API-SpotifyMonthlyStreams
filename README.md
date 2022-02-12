@@ -19,10 +19,12 @@ Request HTTP client
 ![](https://github.com/kyledeguzmanx/fDev-API-SpotifyMonthlyStreams/blob/main/screenshots/listeners-artistt.jpg?raw=true)
 ### JSON DATA
 ![](https://github.com/kyledeguzmanx/fDev-API-SpotifyMonthlyStreams/blob/main/screenshots/JSON%20data.jpg?raw=true)
+### SAMPLE FETCH
+![](https://github.com/kyledeguzmanx/fDev-API-SpotifyMonthlyStreams/blob/main/screenshots/samplecode.jpg?raw=true)
 
 ## HOW TO USE
 
-The API is currently available in the [RAPID API Marketplace](https://rapidapi.com/user/kyledeguzmanx). Find all my APIs on my profile on RapidAPI [@kyledeguzmanx](https://rapidapi.com/user/kyledeguzmanx)   
+The API is currently available in the [RAPID API Marketplace](https://rapidapi.com/kyledeguzmanx/api/spotify-monthly-listeners/). Find all my APIs on my profile on RapidAPI [@kyledeguzmanx](https://rapidapi.com/user/kyledeguzmanx)   
 
 
 In order to use the API, you must sign in to the Rapid API platform. 
@@ -34,7 +36,7 @@ Once you get your API Key, you can now use the API.
 
 The path to fetch the API is:  
 
-
+https://spotify-monthly-listeners.p.rapidapi.com/?rapidapi-key=
 
 and add your unique API key at the end.  
 
