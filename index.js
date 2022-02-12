@@ -26,7 +26,8 @@ request("https://en.wikipedia.org/wiki/List_of_most-streamed_artists_on_Spotify"
       //console.log(i + ": " + item);
     })
     
-    console.log(stats, numbers)
+    console.log(stats, numbers);
+    console.log(stats.length, numbers.length)
   }
   else{
     console.log("error")
