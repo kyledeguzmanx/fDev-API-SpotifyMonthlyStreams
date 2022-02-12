@@ -1,6 +1,8 @@
 const request = require("request");
 const cheerio = require("cheerio");
 const express = require("express");
+const app = express();
+const PORT = 8000;
 
 request("https://en.wikipedia.org/wiki/List_of_most-streamed_artists_on_Spotify", (error, response, html) =>{
   if(!error && response.statusCode == 200){
@@ -30,11 +32,18 @@ request("https://en.wikipedia.org/wiki/List_of_most-streamed_artists_on_Spotify"
     let returnObj = [];
     for( var i=0 ; i < stats.length; i++){
       returnObj.push({
+        rank: i+1,
         artist: stats[i],
         monthlyListeners: numbers[i]
       });
     }
     console.log (returnObj);
+
+     app.get("/", (req,res) => {
+             res.json(returnObj);
+         })
+
+        app.listen(PORT, () => console.log(`server running on ${PORT}`)); //starts server and listens on port 8000
   }
   else{
     console.log("error")
